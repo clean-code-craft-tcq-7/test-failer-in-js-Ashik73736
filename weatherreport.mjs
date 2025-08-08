@@ -12,9 +12,9 @@ function sensorStub() {
 function highPrecipLowWindStub() {
     return {
         temperatureInC: 30,
-        precipitation: 70, 
+        precipitation: 80, 
         humidity: 40,
-        windSpeedKMPH: 40  
+        windSpeedKMPH: 30  
     };
 }
 
