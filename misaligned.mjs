@@ -13,7 +13,7 @@ function print_color_map() {
 
 const result = print_color_map();
 
-expect(result.length).to.equal(25); 
+expect(result[12]).to.equal("13 | Black | Green"); 
 
 expect(result[0]).to.equal("1 | White | Blue"); 
 
@@ -23,4 +23,5 @@ console.log("If you're seeing this after fixes, tests are passing!");
 
 expect(result).equals(25);
 console.log('All is well (maybe!)');
+
 
